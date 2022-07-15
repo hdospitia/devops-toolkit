@@ -16,15 +16,6 @@
 # - Kubectl
 # - GitHub CLI
 
-
-# Install developer tools on Fedora:
-sudo dnf groupinstall -y 'Development Tools'
-sudo dnf install -y procps-ng curl file git
-sudo dnf install -y libxcrypt-compat # needed by Fedora 30 and up
-
-# Install developer tools on Ubuntu:
-sudo apt-get install -y build-essential procps curl file git
-
 # Download Homebrew installation script:
 curl -fsSL -o brew-install.sh https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 
